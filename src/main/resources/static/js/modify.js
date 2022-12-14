@@ -27,7 +27,7 @@ function re_abierto(){
         document.getElementById('txtAcciones').style.display = "none";
         document.getElementById('txtConclusiones').style.display = "none";
         document.getElementById('txtObservaciones').style.display = "none";
-        document.getElementById('txtBoton').style.display = "none";
+        
 
     }
 }
@@ -35,6 +35,7 @@ function cerrado(){
 
     if(caso_check=="Cerrado"){
         document.getElementById('txtSoporte').style.display = "none";
+        document.getElementById('txtBoton').style.display = "none";
         modificarCaso();
     }
 }
